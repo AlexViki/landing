@@ -56,7 +56,7 @@ gulp.task('styles:compile', function () {
 
 
 /* ------------ Sprite ------------- */
-gulp.task('sprite', function () {
+gulp.task('sprite', function(cb) {
   const spriteData = gulp.src('soure/images/icon/*.png').pipe(spritesmith({
     imgName: 'sprite.png',
 	imgPath: '../images/sprite.png',
