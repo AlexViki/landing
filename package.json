@@ -1,0 +1,19 @@
+{
+  "name": "landing",
+  "version": "1.0.0",
+  "description": "This is my first app",
+  "main": "index.js",
+  "dependencies": {
+    "gulp": "^3.9.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "start": "gulp"
+  },
+  "author": "Alex Viki",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/AlexViki/landing/issues"
+  },
+  "homepage": "https://github.com/AlexViki/landing#readme"
+}
