@@ -1,10 +1,10 @@
 var gulp          = require('gulp');
-var sass          = require('gulp-sass');
 var cnf           = require('../package.json').config;
-var sourcemaps    = require('gulp-sourcemaps');
 var plumber       = require('gulp-plumber');
 var notify        = require("gulp-notify");
+var sourcemaps    = require('gulp-sourcemaps');
 /* ------------------------------------------- */
+var sass          = require('gulp-sass');
 var autoprefixer  = require('gulp-autoprefixer');
 var cssnano       = require('gulp-cssnano');
 var rename        = require("gulp-rename");

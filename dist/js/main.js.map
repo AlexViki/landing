@@ -1,0 +1,1 @@
+{"version":3,"sources":["components/alert.js"],"names":["alert","console","log"],"mappings":"AAAAA,MAAA,mCACAC,QAAAC,IAAA,cAAAD,QAAAC,IAAA","file":"main.js","sourcesContent":["alert('Hi from component. Used inclede');\r\nconsole.log('1111111111')"]}
