@@ -13,7 +13,10 @@
     "browser-sync": "^2.24.4",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-babel": "^7.0.1",
+    "gulp-clean": "^0.4.0",
     "gulp-file-include": "^2.0.1",
+    "gulp-imagemin": "^4.1.0",
+    "gulp-import-css": "^0.1.3",
     "gulp-include": "^2.3.1",
     "gulp-notify": "^3.2.0",
     "gulp-plumber": "^1.2.0",
@@ -22,7 +25,8 @@
     "gulp-sourcemaps": "^2.6.4",
     "gulp-uglify": "^3.0.0",
     "node-sass-tilde-importer": "^1.0.2",
-    "require-dir": "^1.0.0"
+    "require-dir": "^1.0.0",
+    "run-sequence": "^2.2.1"
   },
   "scripts": {
     "start": "gulp"
@@ -31,12 +35,28 @@
     "src": {
       "sass": "src/sass/main.sass",
       "html": "src/*.html",
-      "js": "src/js/main.js"
+      "js": "src/js/main.js",
+      "fonts": "src/fonts/*.*",
+      "img": {
+        "compress": [
+          "src/img/**/*.*",
+          "!src/img/noCompress/**/*.*"
+        ],
+        "noCompress": "src/img/noCompress/**/*.*"
+      }
     },
     "dist": {
+      "dist": "dist/",
       "css": "dist/css/",
+      "c_libs": "dist/css/libs",
       "html": "dist/",
-      "js": "dist/js/"
+      "js": "dist/js/",
+      "fonts": "dist/fonts/",
+      "img": "dist/img/"
+    },
+    "libs": {
+      "js": "src/js/libs/libs.js",
+      "css": "src/css/libs.css"
     }
   },
   "author": "Alex Viki",
