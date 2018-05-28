@@ -26,5 +26,5 @@ gulp.task('img', function () {
   });
    
 gulp.task('img:watch', function () {
-    gulp.watch('./src/img/**/*.*', ['img']);
+    gulp.watch('src/img/**/*.*', ['img']);
   });

@@ -10,6 +10,7 @@
   "devDependencies": {
     "babel-core": "^6.26.3",
     "babel-preset-env": "^1.7.0",
+    "bootstrap": "^4.1.1",
     "browser-sync": "^2.24.4",
     "gulp-autoprefixer": "^5.0.0",
     "gulp-babel": "^7.0.1",
@@ -26,6 +27,7 @@
     "gulp-uglify": "^3.0.0",
     "node-sass-tilde-importer": "^1.0.2",
     "require-dir": "^1.0.0",
+    "rfs": "^7.1.1",
     "run-sequence": "^2.2.1"
   },
   "scripts": {
@@ -34,7 +36,7 @@
   "config": {
     "src": {
       "sass": "src/sass/main.sass",
-      "html": "src/*.html",
+      "html": "src/**/*.html",
       "js": "src/js/main.js",
       "fonts": "src/fonts/*.*",
       "img": {

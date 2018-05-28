@@ -1,1 +1,1 @@
-alert('Hi from btn!!!');
+console.log('Hi from file btn');

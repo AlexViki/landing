@@ -92,3 +92,6 @@ JS и не только минифицированые, вообще для пе
 * пакет gulp-clean
 > npm install --save-dev gulp-clean
 для очистки каталога dist перед новой зборкой
+* пакет rfs (responsive font size)
+> npm install rfs --save-dev
+нуже для автоматической адаптации розмера шрифта под разные розшерения дисплев

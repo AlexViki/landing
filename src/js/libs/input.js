@@ -1,1 +1,1 @@
-alert('Hi from INPUT!!!')
+console.log('Hi from file input');
