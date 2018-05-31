@@ -1,0 +1,30 @@
+.title-section
+    display: flex
+    justify-content: space-between
+    align-items: center
+    flex-direction: column
+    +rfs(28px)
+    text-transform: uppercase
+    font-weight: 800
+    letter-spacing: -0.6px
+    text-align: center
+    color: #0eb493
+    span
+        position: relative
+        &:after,
+        &:before
+            position: absolute
+            display: inline-block
+            content: ''
+            width: 90px
+            height: 1px
+            background-color: #767676
+            opacity: 0.4
+            top: 50%
+            transform: translateY(-50%)
+        &:after
+            left: 150%
+        &:before
+            right: 150%
+        img
+            display: block
