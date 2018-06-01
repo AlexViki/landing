@@ -65,22 +65,22 @@
                         <img src="img/features-1.png" alt="features-1" class="features-feat__logo">
                         <h4 class="features-feat__title">Branding
                         </h4>
-                        <p class="features-feat_text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+                        <p class="features-feat__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
                     </section>
                     <section class="features-items__feat features-feat">
                         <img src="img/features-2.png" alt="features-2" class="features-feat__logo">
                         <h4 class="features-feat__title">Development
                         </h4>
-                        <p class="features-feat_text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+                        <p class="features-feat__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
                     </section>
                     <section class="features-items__feat features-feat">
                         <img src="img/features-3.png" alt="features-3" class="features-feat__logo">
                         <h4 class="features-feat__title">Consulting
                         </h4>
-                        <p class="features-feat_text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+                        <p class="features-feat__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
                     </section>
                     <ol class="flickity-page-dots">
-                        <li class="dot" aria-label="Page dot 2"></li>
+                        <li class="dot is-selected" aria-label="Page dot 2"></li>
                         <li class="dot" aria-label="Page dot 3"></li>
                         <li class="dot" aria-label="Page dot 4"></li>
                     </ol>
@@ -92,22 +92,25 @@
 
 <!-- Begins Works -->
     <div class="works">
-        <div class="container works-body">
-            <h2 class="works-body__title title-section">Works
-                <span><img src="img/heart-grey.png" alt="heart-grey"></span>
-            </h2>
-            <p class="works-body__text">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+        <div class="works-body">
+            <div class="container">
+                <h2 class="works-body__title title-section">Works
+                    <span><img src="img/heart-grey.png" alt="heart-grey"></span>
+                </h2>
+                <p class="works-body__text subtitle-section">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+            </div>
             <div class="works-body__gallery works-gallery">
                 <div class="works-gallery__nav works-nav">
-                    <button class="works-nav_button" type="button">All</button>
-                    <button class="works-nav_button" type="button">Branding</button>
-                    <button class="works-nav_button" type="button">Web</button>
-                    <button class="works-nav_button" type="button">Logo Design</button>
-                    <button class="works-nav_button" type="button">Photography</button>
+                    <button class="works-nav__button active" type="button">All</button>
+                    <button class="works-nav__button" type="button">Branding</button>
+                    <button class="works-nav__button" type="button">Web</button>
+                    <button class="works-nav__button" type="button">Logo Design</button>
+                    <button class="works-nav__button" type="button">Photography</button>
                 </div>
-                <div class="works-gallery__grid wokrs-grid">
+            
+                <div class="works-gallery__grid wokrs-grids">
                 <!-- 1 -->
-                    <section class="works-grid">
+                    <section class="works-grids__item works-grid">
                         <img src="img/works/works-1.jpg" alt="works-1" class="works-grid__img">
                         <div class="works-grid__hover works-hover">
                             <img src="img/hover-eye.png" alt="hover-eye" class="works-hover__logo">
@@ -115,8 +118,8 @@
                             <p class="works-hover__text">Photography</p>
                         </div>
                     </section>
-                <!-- 2 -->
-                    <section class="works-grid">
+                    <!-- 2 -->
+                    <section class="works-grids__item works-grid">
                         <img src="img/works/works-2.jpg" alt="works-2" class="works-grid__img">
                         <div class="works-grid__hover works-hover">
                             <img src="img/hover-eye.png" alt="hover-eye" class="works-hover__logo">
@@ -124,62 +127,61 @@
                             <p class="works-hover__text">Photography</p>
                         </div>
                     </section>
-                <!-- 3 -->
-                    <section class="works-grid">
-                        <img src="img/works/works-3.jpg" alt="works-3" class="works-grid__img">
-                        <div class="works-grid__hover works-hover">
-                            <img src="img/hover-eye.png" alt="hover-eye" class="works-hover__logo">
-                            <h4 class="works-hover__title">Labore et dolore magnam</h4>
-                            <p class="works-hover__text">Photography</p>
-                        </div>
+                    <!-- 3 -->
+                    <section class="works-grids__item works-grid">
+                            <img src="img/works/works-3.jpg" alt="works-3" class="works-grid__img">
+                            <div class="works-grid__hover works-hover">
+                                <img src="img/hover-eye.png" alt="hover-eye" class="works-hover__logo">
+                                <h4 class="works-hover__title">Labore et dolore magnam</h4>
+                                <p class="works-hover__text">Photography</p>
+                            </div>
                     </section>
-                <!-- 4 -->
-                    <section class="works-grid">
-                        <img src="img/works/works-4.jpg" alt="works-4" class="works-grid__img">
-                        <div class="works-grid__hover works-hover">
-                            <img src="img/hover-eye.png" alt="hover-eye" class="works-hover__logo">
-                            <h4 class="works-hover__title">Labore et dolore magnam</h4>
-                            <p class="works-hover__text">Photography</p>
-                        </div>
+                    <!-- 4 -->
+                    <section class="works-grids__item works-grid">
+                            <img src="img/works/works-4.jpg" alt="works-4" class="works-grid__img">
+                            <div class="works-grid__hover works-hover">
+                                <img src="img/hover-eye.png" alt="hover-eye" class="works-hover__logo">
+                                <h4 class="works-hover__title">Labore et dolore magnam</h4>
+                                <p class="works-hover__text">Photography</p>
+                            </div>
                     </section>
-                <!-- 5 -->
-                    <section class="works-grid">
-                        <img src="img/works/works-5.jpg" alt="works-5" class="works-grid__img">
-                        <div class="works-grid__hover works-hover">
-                            <img src="img/hover-eye.png" alt="hover-eye" class="works-hover__logo">
-                            <h4 class="works-hover__title">Labore et dolore magnam</h4>
-                            <p class="works-hover__text">Photography</p>
-                        </div>
+                    <!-- 5 -->
+                    <section class="works-grids__item works-grid">
+                            <img src="img/works/works-5.jpg" alt="works-5" class="works-grid__img">
+                            <div class="works-grid__hover works-hover">
+                                <img src="img/hover-eye.png" alt="hover-eye" class="works-hover__logo">
+                                <h4 class="works-hover__title">Labore et dolore magnam</h4>
+                                <p class="works-hover__text">Photography</p>
+                            </div>
                     </section>
-                <!-- 6 -->
-                    <section class="works-grid">
-                        <img src="img/works/works-6.jpg" alt="works-6" class="works-grid__img">
-                        <div class="works-grid__hover works-hover">
-                            <img src="img/hover-eye.png" alt="hover-eye" class="works-hover__logo">
-                            <h4 class="works-hover__title">Labore et dolore magnam</h4>
-                            <p class="works-hover__text">Photography</p>
-                        </div>
+                    <!-- 6 -->
+                    <section class="works-grids__item works-grid">
+                            <img src="img/works/works-6.jpg" alt="works-6" class="works-grid__img">
+                            <div class="works-grid__hover works-hover">
+                                <img src="img/hover-eye.png" alt="hover-eye" class="works-hover__logo">
+                                <h4 class="works-hover__title">Labore et dolore magnam</h4>
+                                <p class="works-hover__text">Photography</p>
+                            </div>
                     </section>
-                <!-- 7 -->
-                    <section class="works-grid">
-                        <img src="img/works/works-7.jpg" alt="works-7" class="works-grid__img">
-                        <div class="works-grid__hover works-hover">
-                            <img src="img/hover-eye.png" alt="hover-eye" class="works-hover__logo">
-                            <h4 class="works-hover__title">Labore et dolore magnam</h4>
-                            <p class="works-hover__text">Photography</p>
-                        </div>
+                    <!-- 7 -->
+                    <section class="works-grids__item works-grid">
+                            <img src="img/works/works-7.jpg" alt="works-7" class="works-grid__img">
+                            <div class="works-grid__hover works-hover">
+                                <img src="img/hover-eye.png" alt="hover-eye" class="works-hover__logo">
+                                <h4 class="works-hover__title">Labore et dolore magnam</h4>
+                                <p class="works-hover__text">Photography</p>
+                            </div>
                     </section>
-                <!-- 8 -->
-                    <section class="works-grid">
-                        <img src="img/works/works-8.jpg" alt="works-8" class="works-grid__img">
-                        <div class="works-grid__hover works-hover">
-                            <img src="img/hover-eye.png" alt="hover-eye" class="works-hover__logo">
-                            <h4 class="works-hover__title">Labore et dolore magnam</h4>
-                            <p class="works-hover__text">Photography</p>
-                        </div>
+                    <!-- 8 -->
+                    <section class="works-grids__item works-grid">
+                            <img src="img/works/works-8.jpg" alt="works-8" class="works-grid__img">
+                            <div class="works-grid__hover works-hover">
+                                <img src="img/hover-eye.png" alt="hover-eye" class="works-hover__logo">
+                                <h4 class="works-hover__title">Labore et dolore magnam</h4>
+                                <p class="works-hover__text">Photography</p>
+                            </div>
                     </section>
                 </div>
-
             </div>
         </div>
     </div>
@@ -192,7 +194,7 @@
                 <h2 class="team-body__title title-section">Meet Our Team
                     <span><img src="img/heart-grey.png" alt="heart-grey"></span>
                 </h2>
-                <p class="team-body__description">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+                <p class="team-body__description subtitle-section">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
                 <div class="team-body__people team-people">
                 <!-- 1 -->
                     <section class="team-people__item team-item">
@@ -314,7 +316,7 @@
                 <h2 class="discuss-body__title">
                     <span><img src="img/heart-grey.png" alt="heart-grey"></span>
                 </h2>
-                <p class="discuss-body__text">Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
+                <p class="discuss-body__text subtitle-section">Voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
                 <section class="discuss-body__content discuss-content">
                     <address class="discuss-content__address discuss-address">
                        <h4 class="discuss-address">Cras at ultrices erat, sed vulputate!</h4>
