@@ -216,7 +216,7 @@
         color: #ffffff
 
 .team
-    padding-bottom: 77px
+    padding-bottom: 100px
     &-body
         &__title
         &__description
@@ -224,9 +224,29 @@
 
 .team-people
     display: flex
+    position: relative
     justify-content: space-between
     &__item
         width: 22%
+    .flickity-page-dots
+        position: absolute
+        display: flex
+        bottom: -50px
+        left: 50%
+        transform: translateX(-50%)
+        .dot
+            display: inline-block
+            margin-right: 10px
+            width: 7px
+            height: 7px
+            border: 1px solid rgba(94, 94, 94, 0.7)
+            border-radius: 50%
+            &:last-child
+                margin-right: 0
+            &:hover
+                cursor: pointer
+            &.is-selected
+                background: rgba(94, 94, 94, 0.7)
 
 .team-item
     position: relative
@@ -300,3 +320,42 @@
             background: rgba(0, 0, 0, 0.2)
             img
                 display: inline-block
+
+.facts
+    background: url('../img/layer-fun.jpg') 0 0 no-repeat
+    background-size: cover
+    //padding: 77px
+    &__body
+        &__title
+        &__item
+.img-layer
+    background: rgba(8, 29, 44, 0.6);
+    padding: 77px
+.fact-item
+    display: flex
+    justify-content: space-between
+    align-items: stretch
+    &__fun
+.fact-fun
+    width: 20%
+    text-align: center
+    &__img
+        display: inline-flex
+        align-items: center
+        justify-content: center
+        width: 130px
+        height: 130px
+        border: 1px solid #ffffff
+        border-radius: 50%
+        margin-bottom: 15px
+        img
+    &__number
+        +rfs(60px)
+        font-weight: 600
+        text-align: center
+        color: #ffffff
+        margin-bottom: 10px
+    &__text
+        +rfs(18px)
+        text-align: center
+        color: #ffffff
