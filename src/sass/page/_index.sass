@@ -359,3 +359,74 @@
         +rfs(18px)
         text-align: center
         color: #ffffff
+
+.discuss
+    padding: 100px 0
+    &-body
+        &__title
+        &__text
+        &__content
+
+.discuss-content
+    display: flex
+    justify-content: space-between
+    align-items: stretch
+    &__address
+    &__form
+    &__socials
+
+.discuss-address
+    +rfs(13px)
+    line-height: 1.45
+    color: #062033
+    font-style: normal
+    width: 245px
+    margin-right: 30px
+    &__title
+        +rfs(22px)
+        text-align: left
+        color: #062033
+        margin-bottom: 20px
+    a
+        text-decoration: none
+        color: #062033
+        display: block
+.discuss-form
+    display: flex
+    justify-content: space-between
+    flex-wrap: wrap
+    &__title
+        +rfs(24px)
+        font-weight: bold
+        text-align: left
+        color: #062033
+    &__input
+        border: none
+        border-bottom: 1px solid #9f9f9f
+        +rfs(13px)
+        text-align: left
+        color: rgba(91, 100, 110, 0.8)
+        margin-bottom: 15px
+    &__btn
+        margin-left: auto
+        background: none
+        border: none
+        +rfs(16px)
+        display: inline-flex
+        align-items: center
+        img
+            display: inline-block
+            margin-right: 10px
+.discuss-socials
+    margin-left: 30px
+    display: flex
+    flex-direction: column
+    justify-content: space-between
+    align-items: center
+    &__link
+        margin-bottom: 10px
+        &:last-child
+            margin-bottom: 0
+        a
+            display: block
+            img
