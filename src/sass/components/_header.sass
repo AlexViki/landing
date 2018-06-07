@@ -86,3 +86,9 @@
     top: 0
     background: #e8e8e8
     z-index: 1
+    transition: all .4s
+    opacity: 0
+    transform: translateY(-100%)
+    &.is-active
+        opacity: 0.95
+        transform: translateY(0%)
