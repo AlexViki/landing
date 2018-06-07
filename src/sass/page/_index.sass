@@ -11,6 +11,12 @@
             align-items: center
             justify-content: space-between
             transform: translateY(-50%)
+            +r(sm)
+                flex-direction: row
+                top: 90%
+                left: 50%
+                justify-content: center
+                transform: translateX(-50%)
             .dot
                 display: inline-block
                 margin-bottom: 10px
@@ -18,8 +24,13 @@
                 height: 10px
                 border: 1px solid #ffffff
                 border-radius: 50%
+                +r(sm)
+                    margin-bottom: 0
+                    margin-right: 15px
                 &:last-child
                     margin-bottom: 0
+                    +r(sm)
+                    margin-right: 0
                 &:hover
                     cursor: pointer
                 &.is-selected
@@ -35,6 +46,8 @@
     overflow: hidden
     box-sizing: border-box
     padding-bottom: 5vh
+    +r(sm)
+        padding-bottom: 15vh
     &__bg
         position: absolute
         left: 50%
