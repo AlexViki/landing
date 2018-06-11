@@ -45,7 +45,7 @@
     position: relative
     overflow: hidden
     box-sizing: border-box
-    padding-bottom: 5vh
+    padding-bottom: 10vh
     +r(sm)
         padding-bottom: 15vh
     &__bg
@@ -131,6 +131,10 @@
                     background: rgba(94, 94, 94, 0.7)
     &__feat
         width: 30%
+        +r(sm)
+           width: 48%
+        +r(xs)
+            width: 100%
 
 .features-feat
     padding-left: 60px
@@ -162,6 +166,8 @@
     display: flex
     justify-content: center
     align-items: center
+    +r(sm)
+        flex-wrap: wrap
     &__button
         border: none
         background: none
@@ -177,6 +183,10 @@
             border-radius: 4px
             padding: 4px
             color: #000000
+        +r(sm)
+            margin-right: 5px
+            margin-bottom: 10px
+
 .wokrs-grids
     display: flex
     align-items: center
@@ -185,6 +195,13 @@
     padding-bottom: 77px
     &__item
         width: calc( 100% / 4)
+        +r(lg)
+            width: calc( 100% / 3)
+        +r(sm)
+            width: calc( 100% / 2)
+        +r(xs)
+            width: 100%
+            text-align: center
 .works-grid
     position: relative
     line-height: 0
@@ -242,6 +259,12 @@
     justify-content: space-between
     &__item
         width: 22%
+        +r(lg)
+            width: 30%
+        +r(sm)
+            width: 48%
+        +r(xs)
+            width: 100%
     .flickity-page-dots
         position: absolute
         display: flex
@@ -272,6 +295,7 @@
         display: block
         width: 100%
         margin-bottom: 15px
+        line-height: 0
     &__img
         display: inline-block
         max-width: 100%
@@ -339,6 +363,8 @@
     background: url('../img/layer-fun.jpg') 0 0 no-repeat
     background-size: cover
     //padding: 77px
+    +r(xs)
+        padding: 100px 0 50px 0
     &__body
         &__title
         &__item
@@ -349,10 +375,15 @@
     display: flex
     justify-content: space-between
     align-items: stretch
+    +r(xs)
+        flex-wrap: wrap
     &__fun
+        width: 20%
+        text-align: center
+        +r(xs)
+            width: 48%
+            margin-bottom: 50px
 .fact-fun
-    width: 20%
-    text-align: center
     &__img
         display: inline-flex
         align-items: center
@@ -362,6 +393,9 @@
         border: 1px solid #ffffff
         border-radius: 50%
         margin-bottom: 15px
+        +r(sm)
+            width: 100px
+            height: 100px
         img
     &__number
         +rfs(60px)
