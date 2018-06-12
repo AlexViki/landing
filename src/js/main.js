@@ -6,3 +6,10 @@ console.log('Hi from main.js');
 $(window).ready(function() {
     menuShow();
 })
+
+// запуск слайдера с ресурса flickity.metafizzy.co
+$('.intro-list').flickity({
+    cellAlign: 'left',
+    contain: true,
+    prevNextButtons: false
+});
