@@ -22,6 +22,14 @@ $(window).ready(function() {
         prevNextButtons: false
     });
 
+    // запуск слайдера с ресурса flickity.metafizzy.co
+    // для блока <!-- Begins Team -->
+    $('.team-people').flickity({
+        cellAlign: 'left',
+        contain: true,
+        prevNextButtons: false
+    });
+
 
 })
 

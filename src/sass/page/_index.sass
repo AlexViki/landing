@@ -259,11 +259,14 @@
         &__people
 
 .team-people
-    display: flex
+    display: block
     position: relative
-    justify-content: space-between
+    //justify-content: space-between
+    .flickity-viewport
+        overflow: hidden
     &__item
         width: 22%
+        margin: 0 3%
         +r(lg)
             width: 30%
         +r(sm)
