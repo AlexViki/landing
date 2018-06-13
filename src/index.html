@@ -104,18 +104,18 @@
                 <p class="works-body__text subtitle-section">Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore</p>
             </div>
             <div class="works-body__gallery works-gallery">
-                <div class="works-gallery__nav works-nav">
-                    <button class="works-nav__button active" type="button">All</button>
-                    <button class="works-nav__button" type="button">Branding</button>
-                    <button class="works-nav__button" type="button">Web</button>
-                    <button class="works-nav__button" type="button">Logo Design</button>
-                    <button class="works-nav__button" type="button">Photography</button>
+                <div class="works-gallery__nav works-nav" id="works-nav">
+                    <button class="works-nav__button active" type="button" data-filter="*">All</button>
+                    <button class="works-nav__button" type="button" data-filter=".brand">Branding</button>
+                    <button class="works-nav__button" type="button" data-filter=".web">Web</button>
+                    <button class="works-nav__button" type="button" data-filter=".logo">Logo Design</button>
+                    <button class="works-nav__button" type="button" data-filter=".photo">Photography</button>
                 </div>
             </div>
             
             <div class="works-gallery__grid wokrs-grids">
                 <!-- 1 -->
-                    <section class="works-grids__item works-grid">
+                    <section class="works-grids__item works-grid brand web">
                         <img src="img/works/works-1.jpg" alt="works-1" class="works-grid__img">
                         <div class="works-grid__hover works-hover">
                             <img src="img/hover-eye.png" alt="hover-eye" class="works-hover__logo">
@@ -124,7 +124,7 @@
                         </div>
                     </section>
                     <!-- 2 -->
-                    <section class="works-grids__item works-grid">
+                    <section class="works-grids__item works-grid web">
                         <img src="img/works/works-2.jpg" alt="works-2" class="works-grid__img">
                         <div class="works-grid__hover works-hover">
                             <img src="img/hover-eye.png" alt="hover-eye" class="works-hover__logo">
@@ -133,7 +133,7 @@
                         </div>
                     </section>
                     <!-- 3 -->
-                    <section class="works-grids__item works-grid">
+                    <section class="works-grids__item works-grid web">
                             <img src="img/works/works-3.jpg" alt="works-3" class="works-grid__img">
                             <div class="works-grid__hover works-hover">
                                 <img src="img/hover-eye.png" alt="hover-eye" class="works-hover__logo">
@@ -142,7 +142,7 @@
                             </div>
                     </section>
                     <!-- 4 -->
-                    <section class="works-grids__item works-grid">
+                    <section class="works-grids__item works-grid brand">
                             <img src="img/works/works-4.jpg" alt="works-4" class="works-grid__img">
                             <div class="works-grid__hover works-hover">
                                 <img src="img/hover-eye.png" alt="hover-eye" class="works-hover__logo">
@@ -151,7 +151,7 @@
                             </div>
                     </section>
                     <!-- 5 -->
-                    <section class="works-grids__item works-grid">
+                    <section class="works-grids__item works-grid logo">
                             <img src="img/works/works-5.jpg" alt="works-5" class="works-grid__img">
                             <div class="works-grid__hover works-hover">
                                 <img src="img/hover-eye.png" alt="hover-eye" class="works-hover__logo">
@@ -160,7 +160,7 @@
                             </div>
                     </section>
                     <!-- 6 -->
-                    <section class="works-grids__item works-grid">
+                    <section class="works-grids__item works-grid brand">
                             <img src="img/works/works-6.jpg" alt="works-6" class="works-grid__img">
                             <div class="works-grid__hover works-hover">
                                 <img src="img/hover-eye.png" alt="hover-eye" class="works-hover__logo">
@@ -169,7 +169,7 @@
                             </div>
                     </section>
                     <!-- 7 -->
-                    <section class="works-grids__item works-grid">
+                    <section class="works-grids__item works-grid photo">
                             <img src="img/works/works-7.jpg" alt="works-6" class="works-grid__img">
                             <div class="works-grid__hover works-hover">
                                 <img src="img/hover-eye.png" alt="hover-eye" class="works-hover__logo">
@@ -178,7 +178,16 @@
                             </div>
                     </section>
                     <!-- 8 -->
-                    <section class="works-grids__item works-grid">
+                    <section class="works-grids__item works-grid logo">
+                            <img src="img/works/works-8.jpg" alt="works-6" class="works-grid__img">
+                            <div class="works-grid__hover works-hover">
+                                <img src="img/hover-eye.png" alt="hover-eye" class="works-hover__logo">
+                                <h4 class="works-hover__title">Labore et dolore magnam</h4>
+                                <p class="works-hover__text">Photography</p>
+                            </div>
+                    </section>
+                    <!-- 9 -->
+                    <section class="works-grids__item works-grid photo">
                             <img src="img/works/works-8.jpg" alt="works-6" class="works-grid__img">
                             <div class="works-grid__hover works-hover">
                                 <img src="img/hover-eye.png" alt="hover-eye" class="works-hover__logo">

@@ -30,6 +30,8 @@ $(window).ready(function() {
         prevNextButtons: false
     });
 
+    filter();
+
 
 })
 
