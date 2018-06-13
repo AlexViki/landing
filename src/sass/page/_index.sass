@@ -107,9 +107,11 @@
     padding: 77px 0 150px 0
     &-body
 .features-items
-    display: flex
-    justify-content: space-between
+    display: block
+    //justify-content: space-between
     position: relative
+    .flickity-viewport
+        overflow: hidden
     .flickity-page-dots
         position: absolute
         display: flex
@@ -131,8 +133,10 @@
                     background: rgba(94, 94, 94, 0.7)
     &__feat
         width: 30%
+        margin: 0 3%
         +r(sm)
-           width: 48%
+            width: 48%
+            //padding: 10px
         +r(xs)
             width: 100%
 
@@ -154,6 +158,7 @@
         +rfs(13px)
         line-height: 1.62
         color: rgba(94, 94, 94, 0.8)
+        margin: 5px
 /*-- End Features --*/
 
 
